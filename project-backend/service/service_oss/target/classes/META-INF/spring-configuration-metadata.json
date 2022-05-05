@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "aliyun.oss",
+      "type": "com.cuicui.pgd.service.oss.utlis.OssProperties",
+      "sourceType": "com.cuicui.pgd.service.oss.utlis.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.oss.bucketname",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.oss.utlis.OssProperties"
+    },
+    {
+      "name": "aliyun.oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.oss.utlis.OssProperties"
+    },
+    {
+      "name": "aliyun.oss.keyid",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.oss.utlis.OssProperties"
+    },
+    {
+      "name": "aliyun.oss.keysecret",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.oss.utlis.OssProperties"
+    }
+  ],
+  "hints": []
+}

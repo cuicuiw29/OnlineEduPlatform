@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "aliyun.vod",
+      "type": "com.cuicui.pgd.service.vod.util.VodProperties",
+      "sourceType": "com.cuicui.pgd.service.vod.util.VodProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.vod.keyid",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.vod.util.VodProperties"
+    },
+    {
+      "name": "aliyun.vod.keysecret",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.vod.util.VodProperties"
+    },
+    {
+      "name": "aliyun.vod.template-group-id",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.vod.util.VodProperties"
+    },
+    {
+      "name": "aliyun.vod.workflow-id",
+      "type": "java.lang.String",
+      "sourceType": "com.cuicui.pgd.service.vod.util.VodProperties"
+    }
+  ],
+  "hints": []
+}

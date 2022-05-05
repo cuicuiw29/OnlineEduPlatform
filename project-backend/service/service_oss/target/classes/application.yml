@@ -1,0 +1,20 @@
+server:
+  port: 8083
+  
+spring:
+  profiles:
+    active: dev #环境配置
+  application:
+    name: service-oss #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #nacos服务地址
+
+aliyun:
+  oss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    keyid: LTAI5tKGpduCuytwkXedDMj8
+    keysecret: 82VGwb4ePS4nBur5L3ZAcNWaXqvQM5
+    #bucket可以在控制台创建，也可以使用java代码创建，注意先测试bucket是否已被占用
+    bucketname: project-gd-file
